@@ -34,7 +34,8 @@
             <input type="checkbox" name="feltet3" id="feltet3"><label for="feltet3">gomba</label>
             <input type="checkbox" name="feltet4" id="feltet4"><label for="feltet4">kukorica</label>
             <input type="checkbox" name="feltet5" id="feltet5"><label for="feltet5">jalapeno</label><br><br>
-            <label for="alap">Alap:</label><select name="alap" id="alap">
+            <label for="alap">Alap:</label>
+            <select name="alap" id="alap">
                 <option value=""></option>
                 <option value="alap1">Paradicsomos</option>
                 <option value="alap2">Tejfölös</option>
@@ -42,7 +43,8 @@
             <br><br>
             <label for="uzenet">Üzenet:</label><br><textarea cols="10" rows="5" name="uzenet" id="uzenet"></textarea>
             <br><br>
-            <input type="submit" value="Küldés">
+            <input type="button" value="Küldés" onclick="alert('Köszönjük a megrendelését!')">
+            <button type="reset">Törlés</button>
         </fieldset>
     </form>
 </body>
